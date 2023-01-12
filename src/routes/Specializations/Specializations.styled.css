@@ -1,0 +1,95 @@
+.attribution {
+  padding: 2px;
+  font-size: 3cqi;
+  text-align: left;
+}
+
+.footer {
+  justify-self: left;
+}
+
+.item-container {
+  display: grid;
+
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 5px;
+}
+
+.item-img {
+  width: 35cqi;
+
+  padding: 5px;
+}
+
+.item-text {
+  align-self: center;
+  text-align: left;
+  font-size: 8cqi;
+}
+
+.main-container {
+  width: 100%;
+  display: grid;
+
+  background-color: var(--primary);
+  color: var(--accent);
+  font-family: "Titillium";
+}
+
+.title {
+  font-size: 12cqi;
+}
+
+@media (min-width: 800px) {
+  .attribution {
+    justify-self: left;
+
+    padding: 5px;
+    font-size: 1cqi;
+    text-align: left;
+  }
+
+  .footer {
+    justify-self: left;
+    margin-top: 200px;
+    margin-bottom: 5px;
+  }
+
+  .item-container {
+    width: 30cqi;
+
+    justify-self: center;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 5px;
+  }
+
+  .item-img {
+    width: 10cqi;
+
+    padding: 5px;
+  }
+
+  .item-text {
+    align-self: center;
+    text-align: left;
+    font-size: 2cqi;
+  }
+
+  .list {
+    width: 80cqi;
+    display: grid;
+
+    justify-self: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+  }
+
+  .title {
+    font-size: 8cqi;
+    text-align: center;
+  }
+}

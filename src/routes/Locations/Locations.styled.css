@@ -1,0 +1,43 @@
+h1 {
+  font-size: 12cqi;
+}
+
+p {
+  width: 100%;
+  padding: 0px 5px;
+  text-align: left;
+}
+
+.address-container {
+  justify-self: left;
+  padding: 5px;
+}
+
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+
+  justify-items: center;
+}
+
+.map {
+  width: 100%;
+
+  justify-self: center;
+  margin-top: 50px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 6cqi;
+  }
+
+  p {
+    font-size: 1.5cqi;
+  }
+
+  .map {
+    width: 40%;
+  }
+}

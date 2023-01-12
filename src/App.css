@@ -1,0 +1,25 @@
+:root {
+  --primary: #000002;
+  --secondary: #050505;
+  --white: #eaeaea;
+  --accent: #a2834e;
+}
+
+@font-face {
+  font-family: "TitilliumBold";
+  src: url(./fonts/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Titillium";
+  src: url(./fonts/TitilliumWeb-Light.ttf);
+}
+
+.main-container {
+  width: 100%;
+  display: grid;
+
+  background-color: var(--primary);
+  color: var(--accent);
+  font-family: "Titillium";
+}

@@ -1,0 +1,90 @@
+a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.close-navbar-btn {
+  height: fit-content;
+
+  align-self: start;
+
+  color: var(--accent);
+  text-align: center;
+  padding: 10px;
+  font-size: 8cqi;
+  font-weight: bold;
+}
+
+.dropdown {
+  min-height: 100vh;
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.dropdown-link {
+  width: fit-content;
+  height: fit-content;
+
+  justify-self: center;
+
+  font-size: 8cqi;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.email-icon {
+  width: 50px;
+  cursor: pointer;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+
+.sidebar-icon {
+  width: 50px;
+
+  align-self: center;
+
+  color: var(--accent);
+  font-size: 8cqi;
+}
+
+.standard-links {
+  width: 100%;
+  display: none;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 800px) {
+  .email-icon:hover {
+    transition: all 0.4s ease;
+    scale: 1.2;
+  }
+
+  .standard-links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .standard-links a:hover {
+    transition: all 0.4s ease;
+    transform: translateY(-3px);
+    color: var(--white);
+    font-weight: bold;
+  }
+
+  .sidebar-icon {
+    display: none;
+  }
+}
